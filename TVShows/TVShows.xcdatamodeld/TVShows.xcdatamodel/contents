@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Next" representedClassName=".Next" syncable="YES">
+        <attribute name="episodeNr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="episodeTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fanartURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasNextEpisode" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastWatched" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="posterURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seasonNr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showTraktID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="slug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traktID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Show" representedClassName=".CoreShow" syncable="YES">
+        <attribute name="episode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fanart" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poster" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="raiting" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="season" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="traktID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Next" positionX="-54" positionY="45" width="128" height="223"/>
+        <element name="Show" positionX="-450" positionY="9" width="128" height="180"/>
+    </elements>
 </model>
