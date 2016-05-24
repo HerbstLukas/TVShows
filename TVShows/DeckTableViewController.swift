@@ -16,15 +16,6 @@ class DeckTableViewController: UITableViewController {
 
         title = "On Deck"
         
-        do {
-            let test = try OnDeckHelper.sharedHelper.getAllShowsUserHasWatched() 
-            
-            for ep in test {
-                print(ep.showName)
-            }
-        } catch _ {
-            print("ERROR")
-        }
         
     }
 

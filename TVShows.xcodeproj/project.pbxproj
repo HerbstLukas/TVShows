@@ -68,7 +68,6 @@
 		80EB0D641C3428F500DF0935 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EB0D631C3428F500DF0935 /* SearchTableViewController.swift */; };
 		80EC19781C9B3955006A5B0E /* DeckTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EC19771C9B3955006A5B0E /* DeckTableViewController.swift */; };
 		80EC197A1C9B396B006A5B0E /* DeckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EC19791C9B396B006A5B0E /* DeckTableViewCell.swift */; };
-		80EC197D1C9B3C67006A5B0E /* OnDeckHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EC197C1C9B3C67006A5B0E /* OnDeckHelper.swift */; };
 		80F09C901C1B069F00E3AFFB /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F09C831C1B068400E3AFFB /* Nuke.framework */; };
 		80F09C931C1B06BB00E3AFFB /* Nuke.framework in Copy Frameworks (1 item) */ = {isa = PBXBuildFile; fileRef = 80F09C831C1B068400E3AFFB /* Nuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80F09CB01C1B098E00E3AFFB /* Air.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F09CAA1C1B098E00E3AFFB /* Air.swift */; };
@@ -307,7 +306,6 @@
 		80EB0D631C3428F500DF0935 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		80EC19771C9B3955006A5B0E /* DeckTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTableViewController.swift; sourceTree = "<group>"; };
 		80EC19791C9B396B006A5B0E /* DeckTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTableViewCell.swift; sourceTree = "<group>"; };
-		80EC197C1C9B3C67006A5B0E /* OnDeckHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnDeckHelper.swift; sourceTree = "<group>"; };
 		80F09C781C1B068400E3AFFB /* Nuke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nuke.xcodeproj; path = Submodules/Nuke/Nuke/Nuke.xcodeproj; sourceTree = SOURCE_ROOT; };
 		80F09CAA1C1B098E00E3AFFB /* Air.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Air.swift; sourceTree = "<group>"; };
 		80F09CAB1C1B098E00E3AFFB /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
@@ -719,7 +717,6 @@
 			children = (
 				80EC19771C9B3955006A5B0E /* DeckTableViewController.swift */,
 				80EC19791C9B396B006A5B0E /* DeckTableViewCell.swift */,
-				80EC197C1C9B3C67006A5B0E /* OnDeckHelper.swift */,
 				80CEE3261C9F1CB50077482F /* OnDeckItem.swift */,
 			);
 			name = OnDeck;
@@ -1095,7 +1092,6 @@
 				807CB0EE1C20CCDD00C928CF /* EpisodesTableViewController.swift in Sources */,
 				80699FAB1C39DFF2008825C8 /* GSMessage.swift in Sources */,
 				808D40081C454D580086A5B8 /* CoreShow+CoreDataProperties.swift in Sources */,
-				80EC197D1C9B3C67006A5B0E /* OnDeckHelper.swift in Sources */,
 				804FDF851C29DE0A00BE7B18 /* PSeason.swift in Sources */,
 				80F2B61B1C4EB1F1001FCC1E /* CoreDataStack.swift in Sources */,
 				808D400D1C45AFE40086A5B8 /* NextTableViewCell.swift in Sources */,

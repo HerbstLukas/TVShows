@@ -36,8 +36,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if TraktManager.sharedManager.isSignedIn == true {
             
             print("\(TraktManager.sharedManager.isSignedIn) -  YES is loged in")
-                        
-            //TraktCoreData.sharedManager.coreDataStack = coreDataStack
+            
+            TraktManager.sharedManager.getAccessTokenFromRefreshToken({ (success) in
+                
+            })
             
         } else if TraktManager.sharedManager.isSignedIn == false {
             print("\(TraktManager.sharedManager.isSignedIn) -  NO is not loged in")
