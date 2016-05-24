@@ -85,6 +85,7 @@ class CastTableViewCell: UITableViewCell {
             
             // Here do load image
             print("image URL is empty :/")
+            print("learining GIT")
             
         } else {
             let req = NSURLRequest(URL: imgURL)
