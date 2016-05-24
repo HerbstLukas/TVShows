@@ -84,6 +84,7 @@ class CastTableViewCell: UITableViewCell {
         if imgURL.absoluteString.isEmpty {
             
             // Here do load image
+            print("image URL is empty :/")
             
         } else {
             let req = NSURLRequest(URL: imgURL)
